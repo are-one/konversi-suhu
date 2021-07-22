@@ -52,6 +52,12 @@ Masukkan Pilihan : """);
     }
 
     case 4:{
+      print("== Konversi Celcius ke Fahreinheit ==");
+      stdout.write("Masukkan suhu dalam Celcius = ");
+      var celcius = num.parse(stdin.readLineSync()!);
+
+      var fahreinheit = (9/5) * celcius + 32;
+      print("$celcius derajat celcius = ${fahreinheit.toStringAsFixed(3)} derajat fahreinheit");
       break;
     }
 
