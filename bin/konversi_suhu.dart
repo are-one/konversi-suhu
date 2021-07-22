@@ -61,6 +61,20 @@ Masukkan Pilihan : """);
       break;
     }
 
+    case 5:{
+      print("== Konversi Celcius ke Kelvin ==");
+      stdout.write("Masukkan suhu dalam Celcius = ");
+      var celcius = num.parse(stdin.readLineSync()!);
+
+      var kelvin = celcius + 273;
+      print("$celcius derajat celcius = $kelvin derajat kelvin");
+      break;
+    }
+
+    case 6:{
+      break;
+    }
+
     default:{
       print("Pilihan tidak ditemukan!");
       break;
