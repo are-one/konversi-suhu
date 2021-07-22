@@ -72,6 +72,12 @@ Masukkan Pilihan : """);
     }
 
     case 6:{
+      print("== Konversi Celcius ke Reamur ==");
+      stdout.write("Masukkan suhu dalam Celcius = ");
+      var celcius = num.parse(stdin.readLineSync()!);
+
+      var reamur = (4/5) * celcius;
+      print("$celcius derajat celcius = ${reamur.toStringAsFixed(2)} derajat reamur");
       break;
     }
 
